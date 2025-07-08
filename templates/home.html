@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Hệ thống điểm danh khuôn mặt</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            font-size: 36px;
+            text-shadow: 2px 2px #444;
+        }
+
+        .menu {
+            background-color: rgba(255, 255, 255, 0.15);
+            padding: 30px 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(6px);
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 320px;
+            text-align: center;
+        }
+
+        .menu a {
+            background-color: #fff;
+            color: #333;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s ease-in-out;
+        }
+
+        .menu a:hover {
+            background-color: #00f2fe;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>📷 Hệ thống điểm danh khuôn mặt</h1>
+    <div class="menu">
+        <a href="/admin/">👑 Trang quản trị</a>
+        <a href="/attendance/checkin/">🟢 Điểm danh</a>
+        <a href="/attendance/report/">📋 Báo cáo điểm danh</a>
+    </div>
+</body>
+</html>
